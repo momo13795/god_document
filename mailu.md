@@ -1,3 +1,7 @@
+---
+typora-copy-images-to: upload
+---
+
 # docker mailu 邮件搭建
 
 ## 1.先决条件
@@ -12,33 +16,33 @@
 
 ### 2.1 step1
 
-![1](/Users/mark/Downloads/mailu_picture/1.png)
+![1](https://raw.githubusercontent.com/momo13795/god_document/master/uPic/1.png)
 
 ### 2.2 step 2
 
-![2](/Users/mark/Downloads/mailu_picture/2.png)
+![2](https://raw.githubusercontent.com/momo13795/god_document/master/uPic/2.png)
 
-![3](/Users/mark/Downloads/mailu_picture/3.png)
+![3](https://raw.githubusercontent.com/momo13795/god_document/master/uPic/3.png)
 
 ### 2.3 step 3
 
-![4](/Users/mark/Downloads/mailu_picture/4.png)
+![4](https://raw.githubusercontent.com/momo13795/god_document/master/uPic/4.png)
 
 ### 2.4 step 4
 
-![](/Users/mark/Downloads/mailu_picture/5.png)
+![](https://raw.githubusercontent.com/momo13795/god_document/master/uPic/5.png)
 
 ### 2.5 step 5
 
-![](/Users/mark/Downloads/mailu_picture/6.png)
+![](https://raw.githubusercontent.com/momo13795/god_document/master/uPic/6.png)
 
 ### 2.6 配置生成结果
 
-![](/Users/mark/Downloads/mailu_picture/7.png)
+![](https://raw.githubusercontent.com/momo13795/god_document/master/uPic/7.png)
 
 ## 3 按配置步骤操作
 
-![Snipaste_2020-09-02_14-40-49](/Users/mark/Downloads/mailu_picture/Snipaste_2020-09-02_14-40-49.png)
+![Snipaste_2020-09-02_14-40-49](https://raw.githubusercontent.com/momo13795/god_document/master/uPic/Snipaste_2020-09-02_14-40-49.png)
 
 ## 4 配置dns解析
 
@@ -46,23 +50,23 @@
 
 地址：`http://abc.com/admin`
 
-![10](/Users/mark/Downloads/mailu_picture/10.png)
+![10](https://raw.githubusercontent.com/momo13795/god_document/master/uPic/10.png)
 
 ### 4.2 创建dns
 
-![11](/Users/mark/Downloads/mailu_picture/11.png)
+![11](https://raw.githubusercontent.com/momo13795/god_document/master/uPic/11.png)
 
-![12](/Users/mark/Downloads/mailu_picture/12.png)
+![12](https://raw.githubusercontent.com/momo13795/god_document/master/uPic/12.png)
 
-![13](/Users/mark/Downloads/mailu_picture/13.png)
+![13](https://raw.githubusercontent.com/momo13795/god_document/master/uPic/13.png)
 
-![14](/Users/mark/Downloads/mailu_picture/14.png)
+![14](https://raw.githubusercontent.com/momo13795/god_document/master/uPic/14.png)
 
 ## 5 注意问题
 
 1. 解决vps 已经绑定25端口的问题
 
-   ![9](/Users/mark/Downloads/mailu_picture/9.png)
+   ![9](https://raw.githubusercontent.com/momo13795/god_document/master/uPic/9.png)
 
 解决办法：
 
@@ -227,4 +231,5 @@ sudo docker exec  -it  mailu_smtp_1 /relay_conf.sh
 
  **登录账户：** admin@你的域名
 
-![15](/Users/mark/Downloads/mailu_picture/15.png)
+![15](https://raw.githubusercontent.com/momo13795/god_document/master/uPic/15.png)
+
